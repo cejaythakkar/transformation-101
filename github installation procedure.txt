@@ -1,0 +1,15 @@
+how to install github?
+
+1) make an id
+
+2) download git hub application and install it.
+
+3) set "path" environment variable to point to "bin" folder of github installation directory like given below.
+
+	C:\Users\jthakkar\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin
+
+4) set proxy for http.proxy and https.proxy like given below
+
+	a) git config --global http.proxy http://login:password@proxyServer:proxyPort
+	
+	b) git config --global http.proxy http://login:password@proxyServer:proxyPort

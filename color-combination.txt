@@ -1,0 +1,7 @@
+color combinations:
+
+green : #ccec75
+
+red : #ff6f69
+
+black : #4e4e4e rgb(78,78,78)

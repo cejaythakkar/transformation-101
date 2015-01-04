@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Pucho kem | Jay Thakkar</title>
+    <link rel="stylesheet" type="text/css" href="css\bootstrap.css">
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="demo-files\demo.css">
+	<link rel="stylesheet" type="text/css" href="css\sidnav.css">
+	<link rel="stylesheet" type="text/css" href="css\header.css">
+    <link rel="stylesheet" type="text/css" href="css\style.css">
+	<link rel="stylesheet" type="text/css" href="css\songlist.css">
+    <script type="text/javascript" src="js\jquery-2.1.1.js"></script>
+	<script type="text/javascript" src="demo-files\liga.js"></script>
+	<script type="text/javascript" src="demo-files\demo.js"></script>
+	<script type="text/javascript" src="js\curtain.js">
+    </script>
+</head>
+
+<body>
+    <!-- <div class="title">
+		<h3>pucho kem?</h3>
+	</div> -->
+    <div class="pucho-kem-container">
+        <div class="pucho-kem-header">
+            <div class="pucho-kem-left-container">
+                <div class="logo">
+                    <!-- <img src="images/logo.png" alt="" /> -->
+                    <h1>LOGO</h1>
+                </div>
+                <div class="slogan">
+                    <h3>title</h3>
+                </div>
+            </div>
+            <div class="headerRightContainer">
+                <div class="searchBar pucho-kem-search-bar-part">
+                    <input type="text" id="searchPuchoKem" class="pucho-kem-search-bar-part" placeholder="search pucho kem" />
+                    <div id="searchButton">
+                        <div class="searchIconWrapper pucho-kem-search-bar-part">
+                            <i class="glyphicon glyphicon-search pucho-kem-search-bar-part" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="userOptions last-pucho-kem-header-option pucho-kem-right-header-option"><span>Join</span></div>
+                <div class="userOptions pucho-kem-right-header-option"><span>Sign in</span></div>
+				<div class="socialWrapper">
+					<div class="social-container">
+						<div class="social"><span class="icon icon-facebook"></span></div>
+					</div>
+					<div class="social-container">
+						<div class="social"><span class="icon icon-twitter"></span></div>
+					</div>
+					<div class="social-container">
+						<div class="social"><span class="icon icon-feed2"></span></div>
+					</div>
+					<div class="social-container">
+						<div class="social"><span class="icon icon-linkedin2"></span></div>
+					</div>
+					<div class="social-container">
+						<div class="social"><span class="icon icon-google-plus"></span></div>
+					</div>
+				</div>
+				
+            </div>
+            <!-- 	<ul>
+					<li id="selected">submenu 1</li>
+					<li>submenu 2</li>
+				</ul>
+				<hr id="tabseperator" /> -->
+        </div>
+        <div class="pucho-kem-sideNav">
+            <nav>
+                <ul>
+                    <li><a href="#"><i class="glyphicon glyphicon-home"></i></a>
+                    </li>
+                    <li><a href="#">About Us</a>
+                    </li>
+                    <li><a href="#">Contact Us</a>
+                    </li>
+					<li><a href="#" section-id="just-arrived">Just Arrived</a>
+                    </li>
+					<li><a href="#" section-id="old-is-gold">Old Is Gold</a>
+                    </li>
+					<li><a href="#" section-id="recommanded">Recommanded</a>
+                    </li>
+					<li><a href="#" section-id="linkin-park">Linkin Park</a>
+                    </li>
+					<li><a href="#" section-id="metallica">Metallica</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="mainContainer">
+            <div id="contentbody">
+				<div class="song-list just-arrived">
+					<div class="song-list-title">
+						<h3>Just Arrived</h3>
+					</div>
+					<ul class="song-list-grid">
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+					</ul>
+				</div>
+				<div class="song-list old-is-gold">
+					<div class="song-list-title">
+						<h3>Old Is Gold</h3>
+					</div>
+					<ul class="song-list-grid">
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+					</ul>
+				</div>
+				<div class="song-list recommanded">
+					<div class="song-list-title">
+						<h3>Recommanded</h3>
+					</div>
+					<ul class="song-list-grid">
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+					</ul>
+				</div>
+				<div class="song-list linkin-park">
+					<div class="song-list-title">
+						<h3>Linkin Park</h3>
+					</div>
+					<ul class="song-list-grid">
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+					</ul>
+				</div>
+				<div class="song-list recommanded">
+					<div class="song-list-title metallica">
+						<h3>Metallica</h3>
+					</div>
+					<ul class="song-list-grid">
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+						<li>
+							<div class="art album-art">
+								<a title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">
+									<img src="http://c.saavncdn.com/563/Mitti-Di-Khushboo-Punjabi-2014-150x150.jpg" alt="New Hindi Songs">
+								</a>
+							</div>
+							<h3 class="title ellip"><a href="http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_" onclick="State.autoLoadPostContentFetch(false);Util.logAndGoToUrl(['content:new-releases:view:'+escape('Mitti Di Khushboo'),'albumid','1201458'], 'http://www.saavn.com/s/album/hindi/Mitti-Di-Khushboo-2014/504P7Glr7gE_');return false;" title="Mitti Di Khushboo songs, Listen to Mitti Di Khushboo">Mitti Di Khushboo</a></h3>
+						</li>
+					</ul>
+				</div>
+                <div class="article-single">
+                    <h1 itemprop="name" class="single-title">Responsive Web Design: 50 Examples and Best Practices</h1>
+
+                    <div id="single-meta">
+                        <span>
+                            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name" class="author-name">Adrian</span>&nbsp;&nbsp;•&nbsp;&nbsp;<a href="http://designmodo.com/inspiration/" rel="category tag">Inspiration</a>&nbsp;&nbsp;•&nbsp;&nbsp;<span itemprop="datePublished" content="2014-03-08">March 8, 2014</span>&nbsp;&nbsp;•&nbsp;&nbsp;<a href="http://designmodo.com/responsive-design-examples/#comments" title="Comment on Responsive Web Design: 50 Examples and Best Practices">19 Comments</a> </span>
+                        </span>
+                    </div>
+                    <!--end single meta-->
+
+                    <span itemprop="articleBody">
+                                                                                    <div id="adsense-top">
+                                    <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- designmodo_336x280_top -->
+<ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px" data-ad-client="ca-pub-8533961490949414" data-ad-slot="1923473317" data-adsbygoogle-status="done"><ins id="aswift_0_expand" style="display:inline-table;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:336px;background-color:transparent"><ins id="aswift_0_anchor" style="display:block;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:336px;background-color:transparent"><iframe width="336" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                                </div><!--end adsense-top-->
+                                                                            <p><strong>Responsive web design</strong> term is related to the concept of developing a website design in a manner that helps the lay out to get changed according to the user’s computer screen resolution. More precisely, the concept allows for an advanced 4 column layout 1292 pixels wide, on a 1025 pixel&nbsp; width screen, that auto-simplifies into 2 columns. Also, it suitably fixes on the smartphone and computer tablet screen. This particular designing technique we call <em>“responsive design”.</em></p>
+<p>Responsive web designing is an entirely different designing version than traditional web designing, and developers <em>(especially fresher)</em> must know about the pros and cons of responsive web designing. This blog is a mighty example of the approach so we will reveal a few facts about the uses of responsive web designing. The basic instinct might be to choose <span style="text-decoration: underline;">media queries</span> to develop a responsive site. However, the hassle one faces with media queries is that new queries can pop up from moment to moment; each time, the user experiences sudden and drastic changes to the look and organization of the site. Experts suggest using some CSS transitions to ease the jump.</p>
+                    <p>Pages that include data tables pose a special challenge to the responsive web designer. Data tables are extremely wide by default, and when someone zooms out to see the whole table, it becomes too small to read. When one tries to zoom in to make it readable, he or she is supposed to <span style="text-decoration: underline;">scroll both horizontally and vertically</span> to look through it.&nbsp; Well, there are several ways to avoid this problem. Reformatting the data table as a pie or mini-graph is an approved solution. The mini-graph fixes even in narrow screens.</p>
+                    <p><strong>Images in responsive web designs</strong> are called context-aware. This particular technique serves the purpose of responsive designing in true sense as the images serve at different resolutions, ranging from larger screens to smaller ones. The scaled images appear to change fluidly with the help of updated developer tools and coding languages, allowing designs to look sharp in every context. Responsive web designing is remarkably different from traditional designing in terms of technical and creative issues, and a careful use of this can do wonders while designing.</p>
+                    <h2>Responsive Web Design Examples</h2>
+                    <h4>Simon Collison</h4>
+                    <p>
+                        <a href="http://colly.com/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60730 size-full" title="1" src="http://designmodo.com/wp-content/uploads/2011/10/1.jpg" alt="Responsive Web Design" width="600" height="340">
+                        </a>
+                    </p>
+                    <p>Though nowadays this greyish grid-style static website looks a bit boring and dull, however when it was released it caused some kind of furor with its high-end layout.</p>
+                    <div id="adsense-p">
+                        <div align="center" style="text-align:center;width:564px;display:block;border:2px solid #303336; border-radius:3px; padding:15px 15px 5px 15px;text-decoration:none;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;color:#303336;font-weight:500;font-size:18px;">
+                            <p>Best Designed WordPress and Bootstrap Themes</p>
+                            <p><a style="color:#231f20; text-decoration:underline;" href="http://designmodo.com/shop/" target="_blank">Designmodo Shop</a>
+                            </p>
+                        </div>
+
+                    </div>
+                    <!--end adsense-p-->
+
+                    <p>The main reason was that the designer primarily focused its attention on responsive behavior that was only gaining popularity those days thereby providing ordinary developers with a representative example of how regular grid-style layout should gracefully transform.</p>
+                    <h4>Andersson-Wise Architects</h4>
+                    <p>
+                        <a href="http://www.anderssonwise.com/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60731 size-full" title="2" src="http://designmodo.com/wp-content/uploads/2011/10/2.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p>Being dedicated to an architecture and design studio it doesn’t surprising that the main focus of the website are photos that showily represent skills, experience and clients of the company.</p>
+                    <p>The landing page includes 3 main sections, each of which is based on image background. The flexibility solution helps to effectively form a proper structure for every standard screen size, creating a pleasant content flow for readers.</p>
+                    <h4>Stephen Caver</h4>
+                    <p>
+                        <a href="http://stephencaver.com/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60732 size-full" title="3" src="http://designmodo.com/wp-content/uploads/2011/10/3.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p><strong>Stephen Caver</strong> has a topnotch website when it comes to responsiveness. You will definitely ask, what so special in it. The answer is simple, take a closer look at the front page and you will see; it consists of</p>
+                    <ul>
+                        <li>huge welcoming message dished up with a help of a rough typography;</li>
+                        <li>set of huge blocks that is a duplication of the main menu on the top;</li>
+                        <li>regular layout for blogging.</li>
+                    </ul>
+                    <p>So as to say, 3 essential aspects that can be found on every website. The designer gives us a hint of how typography, grid-style markup and blog section should change according to device screen dimensions.</p>
+                    <h4>Sparkbox</h4>
+                    <p>
+                        <a href="http://seesparkbox.com/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60733 size-full" title="4" src="http://designmodo.com/wp-content/uploads/2011/10/4.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p><strong>Sparkbox</strong> demonstrates a basic structure of a corporate website. The layout is pretty simple; it is based on a standard, commonly-used set of horizontal stripes that present data in a non-intrusive manner. Such structure is really easy to adapt to various screen sizes. The sequential arrangement of blocks deprived of embellishments undergoes changes quite smoothly and effortlessly, giving users a nice-looking and well-organized layout.</p>
+                    <h4>Food Sense</h4>
+                    <p>
+                        <a href="http://foodsense.is/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60734 size-full" title="5" src="http://designmodo.com/wp-content/uploads/2011/10/5.jpg" alt="Responsive Design" width="600" height="340">
+                        </a>
+                    </p>
+                    <p>Transformation from a regular left-sided blog-style magazine layout populated with numerous yummy pictures to an elementary block-by-block layout – here is how the main process of adaptation looks like in this website.</p>
+                    <p>However, there is nothing supernatural; it is believed to be a typical solution to a great deal of projects that want to attract online readers from mobile web, win over new audience, and at the same time, save the website’s aesthetics from a visual overload.</p>
+                    <h4>The Boston Globe</h4>
+                    <p>
+                        <a href="http://www.bostonglobe.com/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60735 size-full" title="6" src="http://designmodo.com/wp-content/uploads/2011/10/6.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p><strong>The Boston Globe </strong>is an excellent example of a well-thought-out news-related website that is based on a responsive layout. The website takes on a conventional approach that is helpful for those who are eager to run its own frequently updated online magazine.</p>
+                    <p>Though as befits, at first sight it seems that the website has a complex, slightly messy outward that is really hard to handle, actually the solution is really primitive. The designer has wisely split all the information into 3 columns, the amount of which decreases according to screen size, slowly but surely passing stages of displaying data in 2 columns and finally in one; in this way you will be also able to set a necessary order of showcasing your blocks.</p>
+                    <h4>Think Vitamin</h4>
+                    <p>
+                        <a href="http://thinkvitamin.com/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60736 size-full" title="7" src="http://designmodo.com/wp-content/uploads/2011/10/7.jpg" alt="Responsive Design Example" width="600" height="340">
+                        </a>
+                    </p>
+                    <p>To be honest, <strong>Think Vitamin</strong> can’t boast of anything particular concerning its blog design. It has the same markup as everyone else’s. It has 1 main column with a right-sided widgetized sidebar, a header populated with navigation, a logotype and a search bar, and a footer that presents information via set of blocks.</p>
+                    <p>However, the team not just mindlessly uses a responsive framework as a base; they also actively muster support from some styling elements. Thus, a contrasting color palette helps to distinguish content blocks and some functional elements such as social media and ads, enhancing visual perception for mobile users and reinforces readability.</p>
+                    <h4>Sasquatch! Music Festival</h4>
+                    <p>
+                        <a href="http://sasquatchfestival.com/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60737 size-full" title="8" src="http://designmodo.com/wp-content/uploads/2011/10/8.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p><strong>Sasquatch! Music Festival </strong>has to deal with a lot of multimedia content including videos and dynamic effects that in addition is spiced up with some artistic hand-written lettering and fantastic graphics. So for the team, it is quite a challenge to display everything correctly on mobiles and tablets.</p>
+                    <p>Nevertheless, the responsive behavior here is well elaborated. It neatly touches every detail, creating a visually pleasing appearance that doesn’t lose its charm of originality and creativity even on small screens.</p>
+                    <h4>Internet Images</h4>
+                    <p>
+                        <a href="http://interim.it/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60738 size-full" title="9" src="http://designmodo.com/wp-content/uploads/2011/10/9.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p>This is another clean well-organized website that is based on a flexible horizontal stripe layout. The responsiveness here is also effectively bolstered by a color differentiation that visually separates one logical block from another.</p>
+                    <p>Such simple yet powerful combination helps to increase readability chiefly on small devices where, as a rule, everything is presented as a one continuous data stream that, because of an inherent monotony, is able to easily destroy all the piquancy and decrease readers’ interest.</p>
+                    <h4>Staffanstorp</h4>
+                    <p>
+                        <a href="http://staffanstorp.se/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60739 size-full" title="10" src="http://designmodo.com/wp-content/uploads/2011/10/10.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p>Here, an ability of a beautiful adaptation to smaller screens as well as to bigger ones brings such benefits as</p>
+                    <ul>
+                        <li>perfect readability regardless of devices that display your website;</li>
+                        <li>well-structured appearance for increasing information hierarchy;</li>
+                        <li>easily conveying messages to readers that mostly leverage tablets and mobiles.</li>
+                    </ul>
+                    <p>Though the blog designs is not differ from others, yet its desire to satisfy current web requirements takes it at the whole new level.</p>
+                    <h4>Seminal Responsive Web Design Example</h4>
+                    <p>
+                        <a href="http://www.alistapart.com/d/responsive-web-design/ex/ex-site-FINAL.html" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60740 size-full" title="11" src="http://designmodo.com/wp-content/uploads/2011/10/11.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p>As the nameplate implies, the website serves as a perfect example of a responsive design. It even has a proper title “A Flexible Grid”, so it becomes clear that everything here is riding on rules of graceful degradation. As expected, the team pays more attention to an ideal data presentation rather than to aesthetics, so styling goes into the shadows.</p>
+                    <p>The demo page includes navigation, a text block, grid-style area and even illustrated logotype, so to speak covers a minimum of integral elements. The team showcases how sizes of logical divisions and arrangement should properly change in order to provide users with an excellent experience on portable devices.</p>
+                    <h4>Naomi Atkinson</h4>
+                    <p>
+                        <a href="http://naomiatkinson.com/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60741 size-full" title="12" src="http://designmodo.com/wp-content/uploads/2011/10/12.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p><strong>Naomi Atkinson</strong> leverages a mosaic-style layout for the front page. This solution is widely-used among those who want to immediately shed a light upon its artworks by creating online portfolios.</p>
+                    <p>The website is worth mentioning not because of its design, since, to put it mildly, it leaves much to be desired but due to its functional side that is quite intelligent. The designer employs irregular grid that nicely transforms into a correct grid once you start minimizing your browser window. And that’s not all; metamorphoses are supported by pleasant effects that add dynamics and attractiveness to the project.</p>
+                    <h4>Forefathers Group</h4>
+                    <p>
+                        <a href="http://forefathersgroup.com/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60742 size-full" title="13" src="http://designmodo.com/wp-content/uploads/2011/10/13.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p>What can you say about this website? It certainly conveys a distinct, quite overwhelming impression with its matchless, sophisticated design. The team has not stinted on the artistry that manifests itself in various moments.</p>
+                    <p>The website charms with its incredible retro-style typography, fantastic hand-drawn illustrations, textured background, and amazing graphics; and these all embellishments skillfully co-work with textual content that takes up a special place in the design.</p>
+                    <p>So as you can see, the team has to take into account lots of details in order to turn the website into a comfort place that will satisfy needs online visitors that surf the website via various pocket devices.</p>
+                    <h4>Spigot Design</h4>
+                    <p>
+                        <a href="http://spigotdesign.com/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60743 size-full" title="14" src="http://designmodo.com/wp-content/uploads/2011/10/14.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p>Here, the responsive behavior should leave an imprint not only on a standard layout that includes grid-style and line-by-line data presentation but also on intro video, dynamic graphics and of course, menu.</p>
+                    <p>Bearing everything in mind, the team is managed to provide online audience with an elegant design spiced up with some charming effects and full of whitespaces that nicely reflect data regardless of screen dimensions.</p>
+                    <h4>New Adventures In Web Design Conference 2012</h4>
+                    <p>
+                        <a href="http://2012.newadventuresconf.com/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60744 size-full" title="15" src="http://designmodo.com/wp-content/uploads/2011/10/15.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p>Being based on a flexible grid allows the organization to win over as many potential visitors as it possible. And in this case, this quality not only contributes to the appearance of the website but also unobtrusively supports the event that it publicizes. Since the website is dedicated to web design conference, it is highly desirable to demonstrate regular users that the team is aware of current web requirements and rigidly sticks to them. So building a website with all specifications is an important move towards a success.</p>
+                    <h4>Illy Issimo</h4>
+                    <p>
+                        <a href="http://us.illyissimo.com/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60745 size-full" title="16" src="http://designmodo.com/wp-content/uploads/2011/10/16.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p>The responsiveness is an essential feature of every high-quality promotional website that understands rules of attraction. Illy Issimo got the hang of it and used a flexible grid in order to</p>
+                    <ul>
+                        <li>provide a pleasant user experience;</li>
+                        <li>extend a targeted audience;</li>
+                        <li>draw in potential customers that use small devices.</li>
+                    </ul>
+                    <p>So as a result, its advertisement campaign is certainly out in front.</p>
+                    <h4>Arrrrcamp Conference</h4>
+                    <p>
+                        <a href="http://arrrrcamp.be/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60746 size-full" title="17" src="http://designmodo.com/wp-content/uploads/2011/10/17.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p>The website focuses more on text rather than on multimedia. Thus, the large part of the website is based on a white monotone background that nicely underlines text and some trendy “ghost” buttons.</p>
+                    <p>The front page undergoes changes once you resize your browser window; it ably supports all resolutions starting from 1920px and ending up with 240px that is really convenient since Ruby-lovers definitely know how to use tablets and mobiles in search of necessary stuff such as conferences in internet.</p>
+                    <h4>Robot or Not?</h4>
+                    <p>
+                        <a href="http://robot-or-not.com/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60747 size-full" title="18" src="http://designmodo.com/wp-content/uploads/2011/10/18.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p><strong>Robot or Not? </strong>is a demo website that puts a flexible grid in action.</p>
+                    <p>Featuring an equal mix of textual and multimedia data that takes up the whole browser screen (as is often the case) and stripping away all the decorations and creative styling, the team tries to make from the regular page an excellent example for newbies that want to vividly understand basic transformations that happens with the layout when it adapts to various screen dimensions.</p>
+                    <h4>Earth Hour</h4>
+                    <p>
+                        <a href="http://earthhour.fr/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60748 size-full" title="19" src="http://designmodo.com/wp-content/uploads/2011/10/19.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p><strong>Earth Hour</strong> is a really advanced and complex website that is filled with lots of multimedia including both videos and eye-catching photos. Moreover, it is also an online infographic that utilizes some beautiful graphics and smooth transitions in order to draw attention to the issue.</p>
+                    <p>Unfortunately, the adaptation is not well-crafted and fully elaborated, since the website suffers from some inconsistencies starting from tablet version, to say nothing of displaying on a much smaller devices such as mobiles.</p>
+                    <h4>Teixidó</h4>
+                    <p>
+                        <a href="http://teixido.co/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60751 size-full" title="22" src="http://designmodo.com/wp-content/uploads/2011/10/22.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p>The creative team resorts to an ingenious approach of using textures, fantastic drawings and illustrations in order to effectively set its company online and make it look unique and eye-catching.</p>
+                    <p>An artistic side is absolutely stunning. How about an ability to skillfully adapt to competitive environment? Here is also all present and correct. Though the website is static, there are no magnificent effects or dynamic zest, yet the responsive behavior dramatically contributes to the users’ experience, saving the day.</p>
+                    <h4>Ribot</h4>
+                    <p>
+                        <a href="http://ribot.co.uk/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60752 size-full" title="23" src="http://designmodo.com/wp-content/uploads/2011/10/23.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p><strong>Ribot</strong> is a high-end digital design studio which specializes in mobile, tablets and beyond – as the title says.</p>
+                    <p>The key words here are mobile and tablets, it means that the team concentrates on creating designs that will be suitable for namely such devices, so it’s not surprising that the website design itself also easily blends into screens of such gadgets, nicely displaying information and providing regular online visitors with a proper way of exploring company’s services and possibilities.</p>
+                    <h4>Deren Keskin</h4>
+                    <p>
+                        <a href="http://www.deren.me/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60753 size-full" title="24" src="http://designmodo.com/wp-content/uploads/2011/10/24.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p><strong>Deren Keskin</strong> has a compactly arranged, clean online portfolio that obviously resorts to a rule that every web page should occupy only browser screen, even blog falls under this requirement.</p>
+                    <p>The same goes to modified (according to responsive scheme) layouts, so everything is compressing until the whole structure perfectly fits into a screen regardless of its dimension. Furthermore, the designer is managed to save all the proportions and relationships between integral components in order to save and carefully identify the previously set priorities of some elements.</p>
+                    <h4>Sweet Hat Club</h4>
+                    <p>
+                        <a href="http://sweethatclub.org/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60754 size-full" title="25" src="http://designmodo.com/wp-content/uploads/2011/10/25.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p>Much like the previous example, the content is tightly packed together. The newspaper-style layout is aimed to predominantly feature images since the website is an online club of those who like to wear hats.</p>
+                    <p>The textual filling here is quite optional, so the responsive grid should chiefly take care of properly modifying image sizes and fitting them into new dimension. What is worth attention here is that even the mobile version of a website includes 2 columns as the original one.</p>
+                    <h4>Glitch</h4>
+                    <p>
+                        <a href="http://glitch.com/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60755 size-full" title="26" src="http://designmodo.com/wp-content/uploads/2011/10/26.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p>At the present time the website is closed. The home page includes some information about the previous project activity, helpful links and characteristic illustrations. This is only one static web page that is reminiscent of the old days.</p>
+                    <p>However the non-working status in no way affects the responsive behavior that is inherent to the website. Even now, being out of service, it continues to complying with web requirements and formally notifying users about its current status whether they stumble upon the website sitting at his computer or using a cell-phone.</p>
+                    <h4>dConstruct</h4>
+                    <p>
+                        <a href="http://2011.dconstruct.org/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60756 size-full" title="27" src="http://designmodo.com/wp-content/uploads/2011/10/27.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p><strong>dConstruct</strong> is a website dedicated to conference and workshops that take a look at perceptions of technology and culture. Though the design is quite primitive, yet the informative side is really well-thought-out. Thus, the front page draws your attention to only 3 main moments:</p>
+                    <ul>
+                        <li>speakers and workshops’ teachers;</li>
+                        <li>description about the event;</li>
+                        <li>sponsors.</li>
+                    </ul>
+                    <p>Those are the main things that worry potential visitors and need to be instantly highlighted.</p>
+                    <h4>Adaptive Web Design</h4>
+                    <p>
+                        <a href="http://easy-readers.net/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60757 size-full" title="28" src="http://designmodo.com/wp-content/uploads/2011/10/28.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p>As the nameplate implies, the website is concentrated on adaptive issues. To be more precise, this is a promotional website that advertises a book that will answer all you questions.</p>
+                    <p>So it’s quite predictable that the developer leverages it as a tool for showcasing its skills through providing users with a representative example of how should a regular website behave when users come to it from various devices.</p>
+                    <h4>Authentic Jobs</h4>
+                    <p>
+                        <a href="http://www.authenticjobs.com/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60758 size-full" title="29" src="http://designmodo.com/wp-content/uploads/2011/10/29.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p><strong>Authentic Jobs</strong> is an online directory that is aimed to unite employers with job seekers. It traditionally displays data via a list-style layout that is quite elegant and easy to handle when it comes to adding versatility via incorporating responsive behavior.</p>
+                    <p>The transformation does not cause much trouble, since the structure stays the same; the only thing that undergoes changes is a sidebar which is moved down the hierarchy by giving way to more relevant and priority data.</p>
+                    <h4>Five Simple Steps</h4>
+                    <p>
+                        <a href="http://www.fivesimplesteps.com/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60759 size-full" title="30" src="http://designmodo.com/wp-content/uploads/2011/10/30.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p>The website of <strong>Five Simple Steps</strong> has a clean appearance that features only some kind of valedictory speech and a list of helpful stuff from those who previously run this website.</p>
+                    <p>Staying responsive till the end is a good rule of etiquette, and the company is perfectly conscious of this. Even being closed, the website continues to meeting current web requirements and supplying its mobile and tablet readers with a perfect readability.</p>
+                    <h4>Splendid</h4>
+                    <p>
+                        <a href="http://www.madebysplendid.com/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60760 size-full" title="31" src="http://designmodo.com/wp-content/uploads/2011/10/31.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p><strong>Splendid</strong> is a simple online portfolio that emphasizes users’ attention on artist skills and experience. You will not find neither fantastic illustrations nor ingenious effects; the designer takes a minimal approach in order to present himself, and it definitely stands in a stark contrast to other sophisticated creatives’ websites.</p>
+                    <p>In this particular case, the minimal design doesn’t mean minimal functionality. The artist feels that the responsive design is and will be the primary focus, so he takes care about a proper adaptation to huge and small screens.</p>
+                    <h4>Ryan O’Rourke</h4>
+                    <p>
+                        <a href="http://rourkery.com/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60761 size-full" title="32" src="http://designmodo.com/wp-content/uploads/2011/10/32.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p>When you run into online portfolio of Ryan O’Rourke, it seems that the designer is guided by the wise phrase “brevity the soul of wit” and realizes it literally. Minimalism, minimalism and again minimalism…there is only one web page that features one sentence, email and small gif animation that shows off his activity. However much like the previous example, the website is based on a responsive framework that makes the website ready for mobile web audience.</p>
+                    <h4>FlexSlider</h4>
+                    <p>
+                        <a href="http://flex.madebymufffin.com/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60762 size-full" title="33" src="http://designmodo.com/wp-content/uploads/2011/10/33.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p><strong>FlexSlider</strong> is a lightweight jQuery slider from WooThemes with simple semantic markup and numerous valuable features that was created to become your reliable companion for an ideal image showcase on every popular device.</p>
+                    <p>Nevertheless, the web page that promotes the product, unlike the slider itself, is not as adaptive as it should be. Unfortunately, the team has missed this point that really disappoints.</p>
+                    <h4>El Sendero del Cacao</h4>
+                    <p>
+                        <a href="http://www.cacaotour.com/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60763 size-full" title="34" src="http://designmodo.com/wp-content/uploads/2011/10/34.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p><strong>El Sendero del Cacao </strong>has a visually-appealing website with a calm and warm atmosphere that is achieved with a help of soft coloring, spectacular images and appropriate graphics. Moreover, thanks to such integral features as</p>
+                    <ul>
+                        <li>responsive layout;</li>
+                        <li>cross-browser compatibility;</li>
+                        <li>easy navigation;</li>
+                        <li>multi language support.</li>
+                    </ul>
+                    <p>the website is able to unobtrusively force users to indulge in an enjoyable pastime.</p>
+                    <h4>Do Lectures</h4>
+                    <p>
+                        <a href="http://www.dolectures.com/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60764 size-full" title="35" src="http://designmodo.com/wp-content/uploads/2011/10/35.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p><strong>Do Lectures </strong>is a regular blog that makes use of a 3-column format layout that effectively copes with lots of news and posts populated with images. The website has an old-timey feeling because of its conventional markup and lack of any dynamic elements.</p>
+                    <p>Coming with the retina support, the website looks fantastic on huge desktop and notebook screens, whereas on small tablet and mobile screens everything is not so rosy. The responsiveness, unfortunately, is not fully thought-out here, leaving users of mobile web with ill-suited horizontal scroll bars.</p>
+                    <h4>St Paul’s School</h4>
+                    <p>
+                        <a href="http://www.stpaulsschool.org.uk/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60765 size-full" title="36" src="http://designmodo.com/wp-content/uploads/2011/10/36.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p>Nowadays, a great deal of educational institutions has their own websites. Even the official page of the St Paul’s School is not lagging behind others, having a website with</p>
+                    <ul>
+                        <li>an appropriate discreet appearance;</li>
+                        <li>highly informative home page;</li>
+                        <li>comprehensive navigation;</li>
+                        <li>and of course, mobile and tablet friendliness.</li>
+                    </ul>
+                    <p>And concerning schools, it is really something. Having a fully adaptive well-crafted website that not only reveals necessary information but also has a pleasant design supported by flexible grid looks like a jump above its head.</p>
+                    <h4>Naomi Atkinson Design</h4>
+                    <p>
+                        <a href="http://naomiatkinsondesign.com/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60766 size-full" title="37" src="http://designmodo.com/wp-content/uploads/2011/10/37.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p><strong>Naomi Atkinson Design</strong> is a small passionate UK-based design studio that has a tightly-packed together website. The team employs a boxed-style layout with centered content diluted with minimalism that is aimed to:</p>
+                    <ul>
+                        <li>briefly but efficiently display data;</li>
+                        <li>instantly catch the viewers’ focus and draw attention to portfolio items;</li>
+                        <li>provide users with a handy instrument for quick feedbacks.</li>
+                    </ul>
+                    <p>Moreover, such layout is really easy to turn into responsive one, so it’s quite beneficial solution.</p>
+                    <h4>Ben Handzo Photography</h4>
+                    <p>
+                        <a href="http://benhandzo.com/" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60767 size-full" title="38" src="http://designmodo.com/wp-content/uploads/2011/10/38.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p>After casting a mere glance at the website, it becomes clear that the artist is simply obsessed with photos. The home page of his online portfolio is packed with images; there is absolutely no text, with the exception of navigation and small panel placed on footer. Moreover, being bolstered by a responsive grid that handle all the inconsistencies occurring during adaptation to smaller screens, the website brings benefits not only to the owner but also to online visitors by giving them a chance to enjoy spectacular works no matter where they are.</p>
+                    <h4>Stunning CSS3 Media Queries Example</h4>
+                    <p>
+                        <a href="http://stunningcss3.com/code/bakery/index.html" rel="nofollow" title="" target="_blank"><img class="alignnone wp-image-60768 size-full" title="39" src="http://designmodo.com/wp-content/uploads/2011/10/39.jpg" alt="" width="600" height="340">
+                        </a>
+                    </p>
+                    <p>As you have already noticed this is another website in our collection that is dedicated to responsive solutions called media queries that are highly popular among developers nowadays.</p>
+                    <p>Of course, the design, styling and semantics are quite primitive here, however they are not highlights; the flexible grid that plays a role of a solid foundation for this project is a true star here. The website serves as a mere example that graphically formulates the rules of graceful degradation for a standard 4-column layout.</p>
+                    <p></p>
+                    <div class="paginator single"> <span>Page 1</span> <a href="http://designmodo.com/responsive-design-examples/2/"><span>Page 2</span></a>
+                    </div>
+                    <div class="wrapper-comm-single-bottom">
+
+                        <div class="comm-single-script">
+                            <script async="" src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                            <!-- designmodo_336x280_footer -->
+                            <ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px" data-ad-client="ca-pub-8533961490949414" data-ad-slot="7839003079" data-adsbygoogle-status="done"><ins id="aswift_1_expand" style="display:inline-table;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:336px;background-color:transparent"><ins id="aswift_1_anchor" style="display:block;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:336px;background-color:transparent"><iframe width="336" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;"></iframe></ins></ins>
+                            </ins>
+                            <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script>
+                        </div>
+                        <!--end comm-single-script-->
+
+
+                        <div class="share-comm2">
+                            <div class="share2">
+                                <ul>
+                                    <li style="margin:0 20px 0 0;">
+                                        <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://designmodo.com/responsive-design-examples/" data-count="vertical" data-text="Responsive Web Design: 50 Examples and Best Practices" data-via="designmodo" rel="nofollow" title="" target="_blank"></a>
+                                    </li>
+                                    <li style="margin:0 15px 0 0;">
+                                        <div class="fb-like" style="border:none; overflow:hidden; width:50px; height:62px;" data-href="http://designmodo.com/responsive-design-examples/" data-width="50" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                                    </li>
+                                    <li style="margin:0 0 0 0;">
+                                        <div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 50px; height: 60px; background: transparent;">
+                                            <iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 50px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 60px;" tabindex="0" vspace="0" width="100%" id="I0_1420097929463" name="I0_1420097929463" src="https://apis.google.com/se/0/_/+1/fastbutton?usegapi=1&amp;size=tall&amp;origin=http%3A%2F%2Fdesignmodo.com&amp;url=http%3A%2F%2Fdesignmodo.com%2Fresponsive-design-examples%2F&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_GB.TZhwkSesrY8.O%2Fm%3D__features__%2Fam%3DEQ%2Frt%3Dj%2Fd%3D1%2Ft%3Dzcms%2Frs%3DAGLTcCNjB03Ta8vt6aMuP4ZwMkpsY15YtQ#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I0_1420097929463&amp;parent=http%3A%2F%2Fdesignmodo.com&amp;pfname=&amp;rpctoken=82575161" data-gapiattached="true" title="+1"></iframe>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--end share2-->
+                        </div>
+                        <!--end share-comm2-->
+                    </div>
+                    <!--end wrapper-comm-single-bottom -->
+                    <div style="clear:both;"></div>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="pucho-kem-footer"></div> -->
+        <div></div>
+
+    </div>
+</body>
+
+</html>
