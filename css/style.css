@@ -1,0 +1,184 @@
+body,html{
+	min-height : 100%;
+}
+/*body{ 
+	background: url('../images/background_image_repeat.jpg')repeat;
+}*/
+body{
+	font-family: 'Titillium Web', sans-serif;
+	color:#4e4e4e;
+}
+/*pucho-kem-container css*/
+.pucho-kem-container{
+	
+}
+/*pucho-kem-header css*/
+.header-right-container-items{
+	border-right : 1px solid 
+}
+.logo{
+	float : left;
+	font-size : 2.5em;
+	margin: 0 10px;
+}
+.logo h1{margin : 0}
+div.slogan{
+	display: inline-block;
+	/* top: 25px; */
+	position: relative;
+
+}
+div.slogan h3{
+	margin: 10px 0 0 0;
+}
+.pucho-kem-left-container{
+	float:left;
+	width: 20%;
+}
+.pucho-kem-header,.pucho-kem-footer{
+	background: #ccec75;
+	height : 70px;
+}
+.pucho-kem-header{
+	position:fixed;
+	display: block;
+	width : 100%;
+	z-index: 1000;
+	border-bottom:1px solid #d2d6d5;
+}
+#header ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+	clear : both;
+}
+#header li{
+	display : inline;
+	border :1px solid black;
+	margin : 0 0.5em 0 0;
+	background-color : rgb(255,44,45);
+	border-radius : 2px;
+	padding : 2px 12px;
+	z-index : 25;
+	position :relative;
+	border-bottom:none;
+}
+.pucho-kem-footer{
+	clear : both;
+}
+
+#header #selected{
+	background-color: white;
+}
+
+#tabseperator{
+	width:100%;
+	height:1px;
+	background:black;
+	position:relative;
+	top:-1px;
+	margin : 0 0 10px 0;
+	border:0;
+}
+#mainContainer{
+	padding-left: 10px;
+	float: left;
+	/* height: 73%; */
+	/* width: 952px; */
+	/* background: #c3c3c3; */
+	/* margin-left: 1%; */
+	background:#f7f7f7;
+	position:relative;
+	top:70px;
+	left:200px;
+}
+
+
+div.title{
+	height: 200px;
+	width: 350px;
+	background: orange;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+/*. pucho-kem-sideNav.scrolled nav ul li a:hover{
+	color : #ccec75;
+} */
+/* search bar css*/
+.searchBar{
+	float:right;
+	position : relative;
+	/* top:60px; */
+	border-radius:2px;
+	/* box-shadow : 0 0 20px rgba(0,0,0,.5); */
+	clear:both;
+	/* margin-right:10px; */
+	height:100%;
+}
+#searchPuchoKem{
+	padding: 0;
+	border: none;
+	height:100%;
+	width: 0;
+	font-size : 2.2em;
+	background : #f7f7f7;
+}		
+#searchButton{
+	float:right;
+	width : 40px;
+	background : #4e4e4e;
+	width: 70px;
+	
+}
+.userOptions > span{
+	color : #ff6f69;
+	font-size:1.5em;
+}
+#searchButton,#searchPuchoKem{
+	height:100%;
+}
+.searchIconWrapper i{
+	font-size : 2.4em;
+	height: 100%;
+	color:#ff6f69
+}
+.pucho-kem-right-header-option:hover{
+		background : #ff6f69;
+		transition : all .5s;
+}
+.pucho-kem-right-header-option:hover span{
+	color : #ccec75;
+}
+.searchIconWrapper{
+	padding: 15px
+}
+/*user options css*/
+.userOptions{
+	float: right;
+/* margin: 0 10px; */
+font-weight: bold;
+font-size: 1.2em;
+border-right: 1px solid #d2d6d5;
+height: 100%;
+/* padding-right: 10px; */
+padding:15px;
+}
+.userOptions div{
+	height : 30px;
+	width : 50px;
+	float :left;
+}
+.headerRightContainer{
+	float:right;
+	height:100%;
+	/* padding-top : 4px; */
+}
+.last-pucho-kem-header-option{
+	margin-right : 0;
+}
+.pucho-kem-search-bar-collapse{
+	width :0 !important;
+	transition : width 1s;
+}

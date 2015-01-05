@@ -1,0 +1,57 @@
+.socialWrapper{
+	float: right;
+	position:relative;
+	display:table;
+	height:70px;
+}
+
+.social-container{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.social{
+	margin: 15px 5px;
+	background: #ff6f69;
+	height: 30px;
+	width: 30px;
+	float:right; 
+	border-radius:50%;	
+	position:relative;
+	border:1px solid #ff6f69;
+}
+.social:after{
+	content:'';
+	height:100%;
+	width:100%;
+	background:rgba(78,78,78,.3); 
+	display:block;
+	position:absolute;
+	top:0;
+	border-radius:50%;
+	transform : scale(1); 
+	transition: transform .8s; 
+}
+.social:hover:after{
+	/* background:#ff6f69; */
+	transform:scale(0);
+	 /* transition:transform 0.5s; */
+}
+.social span{
+font-size: 2em;
+padding: 5px;
+display: inline-block;
+position: relative;
+color:#ccec75;
+}
+.social:hover{
+	cursor:pointer;
+	background : #ccec75;
+}
+.social:hover span{
+	color: #ff6f69;
+}
+.searchButtonClick{
+	width : 270px !important;
+	transition : width 1s;
+}

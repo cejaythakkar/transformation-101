@@ -1,4 +1,7 @@
 $(function(){
+		$('input[type="range"]').on('change',function(){
+			$('li.perspective-parent').css('-webkit-perspective',$(this).val());
+		});
 		$(document).on('scroll',function(evt){
 			if($(this).scrollLeft() > 10){
 				$('.pucho-kem-sideNav').addClass('scrolled');

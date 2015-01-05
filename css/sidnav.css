@@ -1,0 +1,62 @@
+.pucho-kem-sideNav nav a{
+	text-decoration : none;
+}
+.pucho-kem-sideNav.scrolled{
+	opacity:0.9;
+}
+.pucho-kem-sideNav nav ul{
+	padding : 10px 0;
+}
+.pucho-kem-sideNav nav ul li a{
+	color : black;
+	font-weight: bolder;
+	font-size: 2.5em;
+}
+.pucho-kem-sideNav nav ul li a:hover{
+	color : #ff6f69;
+	box-shadow:none;
+	text-decoration:none;
+}
+.pucho-kem-sideNav,#mainContainer{
+	background : #f7f7f7;
+}
+.pucho-kem-sideNav:after {
+content: '';
+position: absolute;
+width: 2px;
+height: 90%;
+display: block;
+background: #d2d6d5;
+right: 0;
+top: 0;
+margin: 30px 0;
+}
+.pucho-kem-sideNav{
+	top: 70px;
+	position: fixed;
+	/* float:left;
+	height : 73%;
+	/* background : yellow; */ 
+	width:200px;
+	height : 700px;
+	z-index : 1000;
+	margin-right : 10px;
+	/* border-right : 1px solid #d2d6d5; */
+}
+.pucho-kem-sideNav nav ul li{
+text-align : center;
+position:relative;
+}
+.pucho-kem-sideNav nav ul li:after {
+content: '';
+position: absolute;
+width: 100%;
+height: 6%;
+background: #ff6f69;
+left: -100%;
+bottom: 0;
+}
+.pucho-kem-sideNav nav ul li:hover:after {
+	left: 0;
+	transition: all .3s;
+}

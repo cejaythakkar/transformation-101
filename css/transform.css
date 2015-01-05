@@ -1,0 +1,95 @@
+@-webkit-keyframes rotation{
+	0%{
+			
+	}
+	25%{
+			transform:rotate(45deg);
+	}
+	75%{
+			transform:rotate(-45deg);
+	}
+	to{
+			transform:rotate(0deg);
+	}
+}
+@-webkit-keyframes translate{
+	0%{
+			
+	}
+	50%{
+			transform:translate(50px);
+	}
+	to{
+			transform:rotate(-50px);
+	}
+}
+@-webkit-keyframes transformmultiple{
+	0%{
+			transform :rotate(0deg);
+	}
+	20%{
+			transform:rotate(90deg) translate(100px);
+	}
+	40%{
+			transform : translate(-100px) rotate(0deg);
+	}
+	60%{
+			transform:translate(-100px) rotate(-90deg);
+	}
+	80%{
+			transform:translate(100px) rotate(0deg);
+	}
+	to{
+			transform:rotate(-45deg);
+	}
+}
+@-webkit-keyframes origin-change{
+	from{
+	
+	}
+	25%{
+		transform : rotate(45deg);
+	}
+	75%{
+		transform : rotate(-45deg);
+	}
+	to{
+		transform: rotate(0deg);
+	}
+}
+.transform{
+	border:1px solid black;
+	margin:50px;
+}
+.transform-rotate{
+	-webkit-animation-name : rotation;
+	-webkit-animation-timing-function : linear;
+	-webkit-animation-iteration-count : infinite;
+	-webkit-animation-duration:5s;
+}
+.transform-translate{
+	-webkit-animation-name : translate;
+	-webkit-animation-timing-function : linear;
+	-webkit-animation-iteration-count : infinite;
+	-webkit-animation-duration:5s;
+}
+.transform-multiple{
+	-webkit-animation-name : transformmultiple;
+	-webkit-animation-timing-function : linear;
+	-webkit-animation-iteration-count : infinite;
+	-webkit-animation-duration:5s;
+}
+.transform-origin-change{
+	transform-origin : 50% 0;
+	-webkit-animation-name : origin-change;
+	-webkit-animation-timing-function : linear;
+	-webkit-animation-iteration-count : infinite;
+	-webkit-animation-duration : 5s;
+}
+input[type="range"]{
+	width:200px;
+}
+.perspective{
+	transform:rotateX(45deg);
+	-webkit-transform-style : preserve-3d;
+}

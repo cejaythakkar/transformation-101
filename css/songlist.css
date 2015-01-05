@@ -1,0 +1,8 @@
+ul.song-list-grid{
+	list-style : none;
+	padding : 0;
+}
+ul.song-list-grid li{
+	display:inline-block;
+	margin-right:10px;
+}
